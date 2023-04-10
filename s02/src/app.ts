@@ -6,7 +6,11 @@ console.log('hello')
 //     empCode: number;
 //     empName: string;
 
-
+//     constructor (code:number, name:string){
+//         this.empCode = code;
+//         this.empName = name
+//     }
+// }
 
 // let emp1 = new Employee(1, 'Mark')
 // let emp2 = new Employee('1', 'Mark')
