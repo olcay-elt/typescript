@@ -16,7 +16,14 @@ console.log('hello')
 // let emp2 = new Employee('1', 'Mark')
 
 
+// Inheritance
 
+// class Person{
+//     name: string;
+//     constructor(name: string){
+//         this.name = name
+//     }
+// }
 
 // class Employee extends Person{
 //     emplyCode: number;
