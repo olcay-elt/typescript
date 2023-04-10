@@ -6,11 +6,7 @@ console.log('hello')
 //     empCode: number;
 //     empName: string;
 
-//     constructor (code:number, name:string){
-//         this.empCode = code;
-//         this.empName = name
-//     }
-// }
+
 
 // let emp1 = new Employee(1, 'Mark')
 // let emp2 = new Employee('1', 'Mark')
@@ -51,16 +47,16 @@ console.log('hello')
 //       this.year = year;
 //       this.color = color;
 //     }
-  
+
 //     startEngine(): void {
 //       console.log(`Engine Started`)
 //     }
-  
+
 //     abstract stopEngine(): void;
 //   }
 
 //   class Car extends Vehicle {
-  
+
 //     model: string;
 //     numOfDoors: number
 //     constructor(year: number, color: string, model: string, numOfDoors: number) {
@@ -68,14 +64,14 @@ console.log('hello')
 //       this.model = model;
 //       this.numOfDoors = numOfDoors
 //     }
-  
+
 //     stopEngine(): void {
 //         console.log(' Car stopped !')
 //     }
-  
+
 //   }
-  
-  
+
+
 //   const car = new Car(1984, 'blue', 'bmw', 4);
 
 //Data modifiers - Private
@@ -113,12 +109,12 @@ console.log('hello')
 
 // class Circle {
 //     static pi: number = 3.14;
-  
+
 //     static calcArea(radius:number) {
 //       return this.pi * radius * radius
 //     }
 //   }
-  
+
 // console.log(Circle.pi)
 // console.log(Circle.calcArea(5))
 
@@ -214,7 +210,7 @@ console.log('hello')
 // class KeyValuePair<K,V> {
 //     constructor(public key: K, public value: V) {}
 //   }
-  
+
 //   let kvp = new KeyValuePair<number, string>(1,'a')
 //   let shorter = new KeyValuePair('a',1)
 
@@ -244,17 +240,17 @@ console.log('hello')
 // console.log(product1)
 
 
-interface Product{
+interface Product {
     id: number;
     name: string;
     price: number;
 }
 
-let product1: Required <Product> = {id:3,name:'three',price:500}
-let product2: Partial <Product> = {id:3}
-let product3: Readonly <Product> = {id:3,name:'three',price:500}
-let product4: Pick <Product, 'id' | 'price'> = {id:3,price:500}
-let product5: Omit <Product, 'name'> = {id:3,price:500}
+let product1: Required<Product> = { id: 3, name: 'three', price: 500 }
+let product2: Partial<Product> = { id: 3 }
+let product3: Readonly<Product> = { id: 3, name: 'three', price: 500 }
+let product4: Pick<Product, 'id' | 'price'> = { id: 3, price: 500 }
+let product5: Omit<Product, 'name'> = { id: 3, price: 500 }
 
 
 
