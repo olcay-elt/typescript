@@ -67,7 +67,13 @@ console.log('hello')
 //       super(year, color);
 //       this.model = model;
 //       this.numOfDoors = numOfDoors
-//   
+//     }
+
+//     stopEngine(): void {
+//         console.log(' Car stopped !')
+//     }
+
+//   }
 
 
 //   const car = new Car(1984, 'blue', 'bmw', 4);
