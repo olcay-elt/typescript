@@ -25,13 +25,7 @@ console.log('hello')
 //     }
 // }
 
-// class Employee extends Person{
-//     emplyCode: number;
 
-//     constructor(emplyCode: number, name: string){
-//         super(name);
-//         this.emplyCode = emplyCode;
-//     }
 
 //     display():void{
 //         console.log(` Name: ${this.name}  - code ${this.emplyCode}`)
