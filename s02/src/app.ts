@@ -92,15 +92,7 @@ console.log('hello')
 //         console.log(this.age)
 //     }
 
-//     setAge(newAge: number){
-//         if(newAge > 0 && newAge <=100){
-//             this.age = newAge
-//         }else{
-//             throw new Error('Invalid Age')
-//         }
-//     }
 
-// }
 
 // const Barry = new Person('Barry',25)
 
