@@ -45,7 +45,12 @@ console.log('hello')
 
 // abstract class Vehicle {
 
-
+//     year: number;
+//     color: string;
+//     constructor(year: number, color: string) {
+//       this.year = year;
+//       this.color = color;
+//     }
 
 //     startEngine(): void {
 //       console.log(`Engine Started`)
